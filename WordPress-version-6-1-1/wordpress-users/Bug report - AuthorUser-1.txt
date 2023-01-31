@@ -1,0 +1,45 @@
+1.	Bug report title. 
+----------------------------
+Author user must not see the tools screen when logs into the WordPress dashboard.
+Read more about in the related documentation https://wordpress.org/documentation/article/roles-and-capabilities/#author .
+
+
+2.	Test Environment. 
+---------------------------
+1. Install a clean WordPress 
+2. As an administrator create a new user by assigning the 'author' role. 
+
+
+3.	Steps to reproduce. 
+----------------------------
+1. Navigate to tha site's admin page /wp-admin/
+2. In the 'Username or Email Address' field type the user name or the email of the new author user,
+3. In the 'Password' field type the author's password,
+4. Click on the login button.
+
+
+4.	Expected Results. 
+--------------------------
+The 'Tools' menu item of the left menu should not be appeared.
+
+
+5.	Actual results. 
+----------------------
+1. The 'Tools' menu item appears on left menu.
+2. When you click on 'Tools' menu item, an empty screen appears by showing only the page title.
+
+
+6.	Screenshot or video. 
+----------------------------------
+1. Image file 'Bug report - AuthorUser-1.1.png'.
+2. Image file 'Bug report - AuthorUser-1.2.png'.
+
+
+7.	Bug priority:
+-----------------------
+Low
+
+
+8.	Status
+--------------------
+Fail
