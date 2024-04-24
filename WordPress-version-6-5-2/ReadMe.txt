@@ -1,0 +1,1 @@
+Following the related RSR document, https://ajithsrikukan.wordpress.com/wp-content/uploads/2010/06/070014j_software_requirements_specification.pdf, i created test scenarios by using the trello.com platform.
