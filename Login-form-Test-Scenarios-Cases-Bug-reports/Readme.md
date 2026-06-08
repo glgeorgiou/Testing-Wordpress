@@ -1,4 +1,4 @@
-<h1>Testing the WordPress login page./h1>
+<h1>Testing the WordPress login page.</h1>
 
 <p><a href="https://wordpresstest.ggeorgiou.work/wp-login.php">Testing URL</a> </p>
 <p>The aim of this mini project is:</p>
