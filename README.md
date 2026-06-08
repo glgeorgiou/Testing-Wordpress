@@ -9,4 +9,5 @@ The aim of this repo is to use an online Wordpress installation in which test ca
  <li>Playwright</li>
  </ul>
  </p>
- <p>Stay tuned.</p>
+ <p>Some files, such as .xlsx format, are not visible in GitHub environment and you have to download them.</p>
+
