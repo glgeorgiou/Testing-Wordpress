@@ -6,7 +6,7 @@ The aim of this repo is to use an online Wordpress installation in which test ca
  Based on the Wordpress documentation and my experience in this CMS, i'll make test plans and execute test cases mainly in black box testing. For each Wordpress version i'll make a separate folder and a specific test plan and test scenarios. I'm planning to do <strong>manual</strong> and <strong>automated</strong> tests. As far as the automated test is concerned will be based on:
  <ul>
  <li>Selenium</li>
- <li>Cypress</li>
+ <li>Playwright</li>
  </ul>
  </p>
  <p>Stay tuned.</p>
