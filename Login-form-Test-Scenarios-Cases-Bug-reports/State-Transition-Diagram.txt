@@ -1,0 +1,25 @@
+State Transition Diagram
+=========================
+S1 Failed Attempt 1  →  S2 Failed Attempt 2  →  S3 Account Locked
+        ↑                     ↑                       ↺
+        |                     |                       |
+        |                     |                       |
+S0 Logged Out  ───────────────┴──────────────→  S4 Logged In
+        |
+        ↓
+S5 Password Reset Requested
+
+Arrow Labels
+============
+| From | To | Arrow Label                               |
+| ---- | -- | ----------------------------------------- |
+| S0   | S4 | Valid credentials                         |
+| S0   | S1 | Invalid credentials                       |
+| S1   | S2 | Invalid credentials                       |
+| S1   | S4 | Valid credentials / Reset failed counter  |
+| S2   | S3 | Invalid credentials / Lock account        |
+| S2   | S4 | Valid credentials / Reset failed counter  |
+| S3   | S3 | Login denied                              |
+| S4   | S0 | Logout                                    |
+| S0   | S5 | Lost your password?                       |
+| S5   | S0 | Reset request submitted / Return to login |
