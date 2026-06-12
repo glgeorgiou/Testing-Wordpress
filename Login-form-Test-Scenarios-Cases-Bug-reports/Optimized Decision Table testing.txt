@@ -1,0 +1,29 @@
+Optimized Decision Table Testing
+=================================
+| Conditions / Rules                  |  R1 |  R2 |  R3 |  R4 |  R5 |  R6 |  R7 |  R8 |
+| ----------------------------------- | --: | --: | --: | --: | --: | --: | --: | --: |
+| Username/Email provided             | Yes | Yes | Yes | Yes |  No | Yes | Yes | Yes |
+| Username/Email valid                | Yes | Yes |  No |  No | N/A | Yes | Yes | Yes |
+| Password provided                   | Yes | Yes | Yes | Yes | Yes |  No | Yes | Yes |
+| Password valid                      | Yes |  No | Yes |  No | Yes | N/A |  No | Yes |
+| Account locked                      |  No |  No |  No |  No |  No |  No |  No | Yes |
+| Failed login limit reached          |  No |  No |  No | Yes |  No |  No | Yes | N/A |
+| **Actions**                         |     |     |     |     |     |     |     |     |
+| Allow login                         | Yes |  No |  No |  No |  No |  No |  No |  No |
+| Display invalid credentials message |  No | Yes | Yes | Yes |  No |  No | Yes |  No |
+| Display required field validation   |  No |  No |  No |  No | Yes | Yes |  No |  No |
+| Lock account / trigger protection   |  No |  No |  No | Yes |  No |  No | Yes |  No |
+| Display account locked message      |  No |  No |  No |  No |  No |  No | Yes | Yes |
+| Redirect to dashboard               | Yes |  No |  No |  No |  No |  No |  No |  No |
+
+
+| Rule | Meaning                                                            |
+| ---- | ------------------------------------------------------------------ |
+| R1   | Valid username/email + valid password                              |
+| R2   | Valid username/email + invalid password                            |
+| R3   | Invalid username/email + valid password                            |
+| R4   | Invalid username/email + invalid password and failed limit reached |
+| R5   | Username/email field is empty                                      |
+| R6   | Password field is empty                                            |
+| R7   | Valid username/email + invalid password and failed limit reached   |
+| R8   | Account is already locked                                          |
