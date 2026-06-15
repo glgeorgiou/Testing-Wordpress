@@ -12,6 +12,14 @@
   <li>Build a portfolio-ready testing project.</li>
 </ul>
 
+<h2>How to read my project? Start by following the list bellow.</h2>
+<ol>
+  <li>test scenarios,</li>
+  <li>test cases</li>
+  <li>bug reports</li>
+  <li>Test design techniques: Decision Table testing, State Transition Diagram.</li>
+</ol>
+
 <h2>Application Under Test (AUT)</h2>
 <p>
   <strong>URL:</strong>
@@ -26,11 +34,17 @@
 <h2>Test Scenarios</h2>
 <p>
   Created 8 test scenarios covering login, validation, password recovery, account lock, remember me, and logout functionality.
+<p>
+  <img src="test-scenarios.png" alt="test-scenarios.png">
 </p>
+
 
 <h2>Test Cases</h2>
 <p>
   Created 10 detailed test cases including positive, negative, validation, security, and session testing.
+</p>
+<p>
+  <img src="test-cases.png" alt="test-cases.png">
 </p>
 
 <h2>Bug Reports</h2>
