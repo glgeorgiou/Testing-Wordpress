@@ -33,7 +33,7 @@
 
 <h2>Test Scenarios</h2>
 <p>
-  Created 8 test scenarios covering login, validation, password recovery, account lock, remember me, and logout functionality.
+  Created 9 test scenarios covering login, validation, password recovery, account lock, remember me, and logout functionality.
 <p>
   <img src="test-scenarios.png" alt="test-scenarios.png">
 </p>
@@ -54,12 +54,12 @@
 
 <h2>Decision Table Testing</h2>
 <p>
-  Applied an optimized Decision Table to validate login authentication rules and eliminate redundant combinations.
+  Applied an optimized <a href="Optimized Decision Table testing.txt">Decision Table Testing</a> to validate login authentication rules and eliminate redundant combinations.
 </p>
 
 <h2>State Transition Testing</h2>
 <p>
-  Created a State Transition Diagram showing login states, failed attempts, account lock behavior, logout flow, and password recovery flow.
+  Created a <a href="state-transition-diagram.png">State Transition Diagram</a> showing login states, failed attempts, account lock behavior, logout flow, and password recovery flow.
 </p>
 
 <h2>Test Design Techniques Used</h2>
